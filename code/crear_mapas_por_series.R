@@ -27,7 +27,7 @@ map <- left_join(t, l) %>%
 serie <- unique(uc$serie)
 
 map <- map %>% 
-  group_by(ucar_id, serie) %>% 
+  group_by(poli_id, serie) %>% 
   summarise(porc = sum(porc))
 
 for (i in serie) {
@@ -36,11 +36,16 @@ for (i in serie) {
     ggplot() +
     geom_sf(data = ba)+
     geom_sf(aes(fill = porc),lwd = 0) +
-    scale_fill_viridis_c(trans = "sqrt") + 
+    scale_fill_viridis_c(breaks = c(0,25,50,75,100), 
+                         labels = c(0,25,50,75,100),
+                         begin = 0,
+                         end = 1,
+                         limits=c(0, 100))+ 
+    
     ggplot2::ggtitle(label = i)  
     ggsave(x,
            file=paste0(i,'.png'),
-           path = '/home/marcos/Documents/GDB/SUELOS/BA_50/',
+           path = '/home/marcos/Documents/GDB/SUELOS/BA_50/mapas de series/',
            height = 960/30,
            width = 645/30, dpi = 72, units = 'cm')
   print(i)
