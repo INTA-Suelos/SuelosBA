@@ -1,195 +1,70 @@
-ucar_id,simb,serie,porc,fase,posicion
-725,CSCh,NA,100,NA,Bajo
-736,CSG,NA,100,NA,Bajo
-906,FA4,NA,100,NA,Plano aluvial
-36,43p,NA,70,NA,Medanos
-36,43p,Haplustol entico,30,NA,Pendientes
-40,47p,NA,60,NA,Pendiente
-40,47p,Haplustol entico,30,NA,Pendiente
-40,47p,Haplustol entico,10,NA,Pendiente
-43,50p,NA,50,NA,Planos
-43,50p,Paleustol petrocalcico,30,NA,Pendiente
-43,50p,Ustipsament tipico sobre tosca,20,NA,Pendiente
-44,51p,NA,50,NA,Bajos
-44,51p,Haplustol entico (sodico),30,NA,Bajos
-44,51p,Calciustol petrocalcico,20,NA,Planos
-47,54p,NA,90,NA,Medanos
-47,54p,Calciustol petrocalcico,10,NA,Planos
-66,76p,NA,40,NA,Planos
-66,76p,Haplustol aridico,40,NA,Planos
-66,76p,Torripsamente ustico,20,NA,Pendientes
-72,82p,NA,20,NA,Depresiones
-72,82p,Torripsamente tipico,50,NA,Medanos
-72,82p,Haplustol tipico,30,NA,Pendientes
-94,FA2,NA,100,NA,Bajo
-136,AoCM,NA,100,NA,Bajo
-137,AoPhG,NA,100,NA,Bajos
-214,Bñ,NA,100,NA,-
-321,CAAoS,NA,100,NA,bajos elongados
-404,CM,NA,100,NA,-
-413,Cni,NA,100,NA,planos aluviales
-904,FA2,NA,100,NA,Bajo
-904,FA2,Fuerte Argentino,100,NA,Bajo
-1073,L,NA,100,NA,-
-1106,Lc1,NA,80,NA,Ambiente palustre
-1106,Lc1,Miscelaneas (agua),20,NA,Espejo de agua
-1107,Lc2,NA,50,NA,Ambiente palustre
-1107,Lc2,Miscelaneas (agua),50,NA,Espejo de agua
-1108,Lc3,NA,20,NA,Ambiente palustre
-1108,Lc3,Miscelaneas,80,NA,Espejo de agua
-1361,LT,NA,100,NA,-
-1385,M,NA,100,NA,-
-1387,M2,NA,100,NA,-
-1388,M3,NA,100,NA,-
-1389,M4,NA,100,NA,-
-1427,Med,NA,100,NA,Medano
-1428,MedC,NA,100,NA,NA
-1429,MedE,NA,100,NA,Medano
-1870,Q1,NA,100,NA,pendiente
-1871,Q2,NA,100,NA,CÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½rcava
-1873,R,NA,100,NA,-
-1874,R1,NA,100,NA,-
-1875,R2,NA,80,NA,-
-1875,R2,Inclusion de suelo de 8-10 cm de espesor,20,NA,NA
-2004,Sal,NA,100,NA,NA
-2045,SFe,NA,100,NA,Bajos
-313,Bv35,Bolivar,50,NA,Loma
-313,Bv35,Piedritas,30,NA,Media loma baja
-313,Bv35,NA,20,NA,Bajo
-990,GL2,General Lavalle,80,NA,Tendidos altos
-990,GL2,El Tordillo,10,NA,Cubetas
-990,GL2,NA,10,NA,Albardones
-1092,LAb15,La Albina,55,moderadamente salina,Tendido bajo
-1092,LAb15,Bolivar,30,NA,Media loma
-1092,LAb15,NA,15,poco inundable,Media loma baja
-1225,LMa5,La Malacara,60,NA,bajo
-1225,LMa5,Tamangueyu,20,NA,bajo
-1225,LMa5,NA,10,NA,bajo
-1225,LMa5,NA,10,NA,bajo
-1231,LMs1,Las Margaritas,50,NA,Tendidos bajos
-1231,LMs1,Las Hermanas,30,NA,Tendidos altos
-1231,LMs1,NA,20,alcalino sodico de superficie,Microlomas
-980,GG5,General Guido,30,pobremente drenado,Tendido bajo
-980,GG5,General Guido,30,NA,Tendido alto
-980,GG5,Suelos Indiferenciados de bajos,30,NA,Cubetas y vias de agua
-980,GG5,NA,10,NA,Tendido alto
-1692,Or18,Ortiz de Rosas,60,NA,NA
-1692,Or18,La Albina,30,NA,NA
-1692,Or18,Morse,5,NA,NA
-1692,Or18,NA,5,Olascoaga,NA
-203,Az40,Azul,50,fuertemente ondulada,Pendiente
-203,Az40,Sierra de los Padres,30,NA,Pendiente
-203,Az40,Cinco Cerros,10,fuertemente ondulada,Pendiente
-203,Az40,NA,10,NA,Afloramiento rocoso
-225,Bal18,Balcarce,40,suavemente ondulada y moderadamente bien drenada,Pie de pendiente
-225,Bal18,Mar del Plata,25,suavemente ondulada y moderadamente bien drenada,Pendiente alta y media
-225,Bal18,Tres Esquinas,20,algo pobremente drenada,Pendiente alta y media
-225,Bal18,NA,15,NA,Pendiente alta
-273,Bra11,Bragado,40,NA,Loma y media loma
-273,Bra11,Norumbega,30,NA,Cresta
-273,Bra11,Lazzarino,20,NA,Pie de loma
-273,Bra11,NA,10,NA,NA
-281,Bra9,Bragado,50,NA,Loma alta
-281,Bra9,Alem,20,NA,Loma
-281,Bra9,Norumbega,20,NA,Cresta medanosa
-281,Bra9,NA,10,NA,Pie de loma
-325,Cas5,Castelli,40,pobremente drenado,Tendido bajo
-325,Cas5,General Guido,30,NA,Tendido alto
-325,Cas5,Suelos Indiferenciados de bajos,10,NA,Tendido alto
-325,Cas5,NA,20,NA,Bajo
-344,CC8,Cinco Cerros,40,NA,Loma pronunciada
-344,CC8,Balcarce,40,NA,Loma
-344,CC8,NA,20,NA,NA
-344,CC8,La Alianza,0,NA,Loma pronunciada
-377,Chas3,Chasico,30,moderadamente somera,Loma
-377,Chas3,Estela,30,moderadamente somera,Tendido
-377,Chas3,Sauce Chico,20,NA,Tendido
-377,Chas3,NA,20,NA,Loma
-729,CSe2,Cañada Seca,40,NA,Loma
-729,CSe2,Pichincha,30,NA,Microloma y pie de loma
-729,CSe2,Balbin,20,NA,Bajo
-729,CSe2,NA,10,NA,Loma
-952,GG24,General Guido,40,NA,Tendido alto
-952,GG24,Chelforo,30,NA,Tendido bajo
-952,GG24,Ayacucho,20,NA,Tendido bajo
-952,GG24,NA,10,NA,Vias de agua y cubetas
-954,GG26,General Guido,50,NA,Tendidos
-954,GG26,Martin Colman,20,NA,Bajos
-954,GG26,Tandileofu,20,NA,Bajos
-954,GG26,NA,10,NA,Tendidos bajos
-967,GG38,General Guido,30,NA,Tendido alto
-967,GG38,Chelforo,30,NA,Tendido bajo
-967,GG38,Ayacucho,20,NA,Loma baja
-967,GG38,NA,20,NA,Bajos y cubetas
-1068,Ju18,Junin,50,NA,Loma medanosa
-1068,Ju18,O Higgins,40,NA,Cubeta
-1068,Ju18,La Oriental,5,NA,Cubeta
-1068,Ju18,NA,5,NA,NA
-1120,LD13,La Delicia,40,NA,Tendido alto
-1120,LD13,Azul,30,NA,Pendiente suave
-1120,LD13,Tandil,20,NA,Media loma
-1120,LD13,NA,10,NA,Loma
-1237,Ln10,Lincoln,70,NA,Loma
-1237,Ln10,Teodelina,10,NA,Cubeta
-1237,Ln10,Vedia,10,NA,Bajo
-1237,Ln10,NA,10,NA,Cubeta
-1246,Ln19,Lincoln,50,NA,Loma y media loma
-1246,Ln19,Norumbega,30,NA,Cresta
-1246,Ln19,Alem,10,NA,Loma y media loma
-1246,Ln19,NA,10,NA,Pie de loma y bajo
-1247,Ln2,Lincoln,50,NA,Loma
-1247,Ln2,Ortiz de Rosas,30,NA,Loma
-1247,Ln2,Vedia,10,NA,Bajo
-1247,Ln2,NA,10,NA,Bajo
-1261,Ln31,Lincoln,40,NA,Loma
-1261,Ln31,Ameghino,30,NA,Cresta de loma
-1261,Ln31,Cañada Seca,20,NA,Pie de loma
-1261,Ln31,NA,10,NA,Media loma
-1271,Ln5,Lincoln,50,NA,Loma
-1271,Ln5,Norumbega,30,NA,Medano
-1271,Ln5,La Oriental,10,NA,Hoya
-1271,Ln5,NA,10,NA,Loma
-1378,Lz12,Lazzarino,40,NA,Loma
-1378,Lz12,San Gregorio,30,NA,Media loma
-1378,Lz12,Corrales,20,NA,Pie de loma
-1378,Lz12,NA,10,NA,Pie de loma
-1379,Lz13,Lazzarino,40,NA,Loma extendida
-1379,Lz13,Balbin,20,NA,Tendido bajo
-1379,Lz13,Lincoln,20,NA,Loma alta
-1379,Lz13,NA,20,NA,Pie de loma
-1551,Ne16,Necochea,40,moderadamente bien drenada,microloma
-1551,Ne16,La Malacara,30,NA,bajo
-1551,Ne16,Comandante Nicanor Otamendi,20,NA,cubeta
-1551,Ne16,NA,10,NA,microloma
-1552,Ne17,Necochea,60,moderadamente bien drenada y superficial gruesa,loma plana
-1552,Ne17,La Malacara,20,NA,bajo
-1552,Ne17,Comandante Nicanor Otamendi,10,NA,cubeta
-1552,Ne17,NA,10,NA,cubeta
-1553,Ne18,Necochea,50,moderadamente drenada,loma baja
-1553,Ne18,La Malacara,30,NA,tendido
-1553,Ne18,San Pedro,10,NA,microloma arenosa
-1553,Ne18,NA,10,NA,bajo
-1594,No2,Norumbega,40,NA,Lomas
-1594,No2,Veinticinco de Mayo,30,NA,Lomas medanosas
-1594,No2,Norumbega,20,moderadamente inclinada,Pendientes
-1594,No2,NA,10,poco anegable,NA
-1612,No4,Norumbega,60,NA,loma
-1612,No4,Ortiz de Rosas,20,NA,pie de loma
-1612,No4,Estacion Naon,10,NA,media loma
-1612,No4,NA,10,NA,bajos
-1725,Or49,Ortiz de Rosas,40,algo pobremente drenada,Loma
-1725,Or49,Pichincha,30,NA,Media loma
-1725,Or49,Saboya,20,moderadamente bien drenada,Loma
-1725,Or49,NA,10,NA,Bajo
-1868,Py4,Peyrano,35,NA,loma
-1868,Py4,Gelly,35,NA,bajo
-1868,Py4,Santa Lucia,20,NA,bajo
-1868,Py4,NA,10,NA,NA
-2050,SG7,San Gregorio,40,NA,Plano medio
-2050,SG7,Lazzarino,40,NA,Plano alto
-2050,SG7,Vedia,10,NA,Plano bajo
-2050,SG7,NA,10,NA,Tendido bajo
-2213,Ta26,Tandil,35,llana,Loma
-2213,Ta26,Azul,30,NA,Loma
-2213,Ta26,Cinco Cerros,20,llana,Loma
-2213,Ta26,NA,15,NA,Loma
+ucar_id,simb,serie,porc,fase,posicion,taxo
+725,CSCh,NA,100,NA,Bajo,Complejo indiferenciado
+736,CSG,NA,100,NA,Bajo,Complejo indiferenciado
+906,FA4,NA,100,NA,Plano aluvial,Complejo indiferenciado
+36,43p,NA,70,NA,Medanos,Torripsament tipico
+36,43p,Haplustol entico,30,NA,Pendientes,Haplustol entico
+40,47p,NA,60,NA,Pendiente,Ustortent litico
+40,47p,Haplustol entico,30,NA,Pendiente,Haplustol entico
+40,47p,Haplustol entico,10,NA,Pendiente,Haplustol entico
+43,50p,NA,50,NA,Planos,Ustortent aridico
+43,50p,Paleustol petrocalcico,30,NA,Pendiente,Haplustol entico
+43,50p,Ustipsament tipico sobre tosca,20,NA,Pendiente,Ustortente litico
+44,51p,NA,50,NA,Bajos,Ustifluvent tipico
+44,51p,Haplustol entico (sodico),30,NA,Bajos,Ustifluvente tipico
+44,51p,Calciustol petrocalcico,20,NA,Planos,Haplustol entico
+47,54p,NA,90,NA,Medanos,Torripsament tipico
+47,54p,Calciustol petrocalcico,10,NA,Planos,Haplustol entico
+66,76p,NA,40,NA,Planos,Ustortent tipico
+66,76p,Haplustol aridico,40,NA,Planos,Haplustol aridico
+66,76p,Torripsamente ustico,20,NA,Pendientes,Torripsamente ustico
+72,82p,NA,20,NA,Depresiones,Torripsament tipico
+72,82p,Torripsamente tipico,50,NA,Medanos,Haplustol entico
+72,82p,Haplustol tipico,30,NA,Pendientes,Acuisalid tipico
+94,FA2,NA,100,NA,Bajo,Complejo indiferenciado
+136,AoCM,NA,100,NA,Bajo,Complejo indiferenciado
+137,AoPhG,NA,100,NA,Bajos,Complejo indiferenciado
+214,Bñ,NA,100,NA,-,NA
+321,CAAoS,NA,100,NA,bajos elongados,Complejo indiferenciado
+404,CM,NA,100,NA,-,Complejo indiferenciado
+413,Cni,NA,100,NA,planos aluviales,Complejo indiferenciado
+904,FA2,NA,100,NA,Bajo,Complejo indiferenciado
+904,FA2,Fuerte Argentino,100,NA,Bajo,Complejo indiferenciado
+1073,L,NA,100,NA,-,Lagunas
+1106,Lc1,NA,80,NA,Ambiente palustre,Complejo indiferenciado
+1106,Lc1,Miscelaneas (agua),20,NA,Espejo de agua,Miscelaneas (agua)
+1107,Lc2,NA,50,NA,Ambiente palustre,Complejo indiferenciado
+1107,Lc2,Miscelaneas (agua),50,NA,Espejo de agua,Miscelaneas (agua)
+1108,Lc3,NA,20,NA,Ambiente palustre,Complejo indiferenciado
+1108,Lc3,Miscelaneas,80,NA,Espejo de agua,Miscelaneas (agua)
+1361,LT,NA,100,NA,-,Lagunas
+1385,M,NA,100,NA,-,Miscelaneas
+1387,M2,NA,100,NA,-,Roca
+1388,M3,NA,100,NA,-,Miscelaneas
+1389,M4,NA,100,NA,-,Miscelaneas
+1427,Med,NA,100,NA,Medano,Medano
+1428,MedC,NA,100,NA,NA,NA
+1429,MedE,NA,100,NA,Medano,Medano
+1870,Q1,NA,100,NA,pendiente,Complejo indiferenciado
+1871,Q2,NA,100,NA,CÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½rcava,Miscelaneas
+1873,R,NA,100,NA,-,Roca
+1874,R1,NA,100,NA,-,Roca
+1875,R2,NA,80,NA,-,NA
+1875,R2,Inclusion de suelo de 8-10 cm de espesor,20,NA,NA,NA
+2004,Sal,NA,100,NA,NA,Salitrales
+2045,SFe,NA,100,NA,Bajos,Complejo indiferenciado
+313,Bv35,Bolivar,50,NA,Loma,Hapludol entico
+313,Bv35,Piedritas,30,NA,Media loma baja,Hapludol entico
+313,Bv35,NA,20,NA,Bajo,Hapludol tapto natrico
+990,GL2,General Lavalle,80,NA,Tendidos altos,Natracuert tipico
+990,GL2,El Tordillo,10,NA,Cubetas,Pelludert tipico acuico
+990,GL2,NA,10,NA,Albardones,Pelludert tipico
+1092,LAb15,La Albina,55,moderadamente salina,Tendido bajo,Hapludol thapto natrico
+1092,LAb15,Bolivar,30,NA,Media loma,Hapludol entico
+1092,LAb15,NA,15,poco inundable,Media loma baja,Hapludol entico
+1225,LMa5,La Malacara,60,NA,bajo,Natracuol tipico
+1225,LMa5,Tamangueyu,20,NA,bajo,Natracuol tipico
+1225,LMa5,NA,10,NA,bajo,Natracuol tipico
+1231,LMs1,Las Margaritas,50,NA,Tendidos bajos,Natracualf petrocalcico
+1231,LMs1,Las Hermanas,30,NA,Tendidos altos,"Natrudol petrocalcico, mod.profun."
+1231,LMs1,NA,20,alcalino sodico de superficie,Microlomas,"Paleudol petrocalcico,muy somera."
