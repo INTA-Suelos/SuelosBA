@@ -30,14 +30,14 @@ ucar_d <- s %>%
 
 # Composicion de las UCAR
 ucar_c <- s %>% 
-  select(ucar_id, SERIE1:POSIC6) %>% 
+  select(ucar_id, simb, SERIE1:POSIC6) %>% 
   unique() %>% 
   select(-PAISAJE)
 
 u <- NULL
 for (i in as.character(1:5)) {
-  x <- ucar_c[,c(1,grep(pattern = i, x = names(ucar_c)))]  
-  names(x) <- c('ucar_id', 'serie', 'porc', 'fase', 'posicion')
+  x <- ucar_c[,c(1, 2,grep(pattern = i, x = names(ucar_c)))]  
+  names(x) <- c('ucar_id', 'simb', 'serie', 'porc', 'fase', 'posicion')
   u <- rbind(u,x)
 }
 
@@ -59,6 +59,51 @@ ucar <- ucar_d %>%
   group_by(simb) %>% 
   summarise(n_simb = n()) %>% 
   left_join(ucar_d) 
+ucar
+
+ucar_c <- ucar_c %>% 
+  arrange(!desc(ucar_id), !desc(porc))
+
+ucar_c <- ucar_c %>% 
+  filter(!(is.na(serie) & porc == 0))
+
+# arreglos de errores simples
+ucar_c$posicion[ucar_c$posicion=='falta'] <- NA 
+ucar_c$simb[57] <- 'CoAoCñs'
+
+# buscar caracteres extranos en nombre de series
+ucar_c[grep(pattern = 'Ã', ucar_c$serie),]
+
+ucar_c$serie[!is.na(ucar_c$serie) & ucar_c$serie == 'CaÃ±ada Seca'] <- 'Cañada Seca'
+ucar_c$serie[!is.na(ucar_c$serie) & ucar_c$serie == 'CaÃ±ada Honda'] <- 'Cañada Honda'
+ucar_c$serie[!is.na(ucar_c$serie) & 
+               ucar_c$serie == 
+               'MiÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ana'] <- 'Miñana'
+ucar_c$serie[!is.na(ucar_c$serie) & 
+               ucar_c$serie == 
+               'BaÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ados'] <- 'Bañados'
+
+# selección de UCAR sin nombre de componentes (series)
+ucar_sin_serie <- ucar_c %>% 
+  filter(is.na(serie)) %>% 
+  select(ucar_id, simb) %>% 
+  unique()
+ucar_sin_serie <- ucar_sin_serie[-grep(pattern = '^Co', ucar_sin_serie$simb),]
+ucar_sin_serie <- ucar_sin_serie %>% 
+  left_join(ucar_c)
+
+write_csv(ucar_sin_serie, 'data/_ucar_sin_serie.csv')
+# selección de UCAR con porcentajes de componentes diferentes de 100%
+
+ucar_porc_error <- ucar_c %>% 
+  group_by(ucar_id, simb) %>% 
+  summarise(sum_porc = sum(porc)) %>% 
+  filter(sum_porc != 100)
+write_csv(ucar_porc_error, 'data/_ucar_porc_error.csv')
+#
+
+
+
 
 write_csv(hoja, 'data/ucar_x_hoja_ign.csv')
 write_csv(poligonos, 'data/ucar_x_poligon.csv')
