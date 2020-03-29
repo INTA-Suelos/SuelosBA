@@ -97,6 +97,8 @@ ucar_c$serie[!is.na(ucar_c$serie) &
                ucar_c$serie == 
                'BaÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¿ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â½ados'] <- 'Bañados'
 
+ucar_c <- ucar_c %>% unique()
+
 # selección de UCAR sin nombre de componentes (series)
 ucar_sin_serie <- ucar_c %>% 
   filter(is.na(serie)) %>% 
@@ -117,16 +119,12 @@ write_csv(ucar_porc_error, 'data/_ucar_porc_error.csv')
 
 # Conectar componentes ucar_c con taxonomía de ucar_d
 serie <- ucar_c %>% 
-  select(serie, porc, ucar_id, simb) %>%
-  na.omit()
-
-taxo <- ucar_d %>% 
-  select(ucar_id, simb, taxo1 = taxo_ppal, taxo2 = taxo_2rio, taxo3 = taxo_3rio) %>% 
-  pivot_longer(cols = c(taxo1, taxo2, taxo3), names_to = 'tipo', values_to = 'taxo') %>% 
-  na.omit()
-
+  select(serie, taxo) %>%
+  filter(!is.na(serie)) %>% 
+  unique()
 
 write_csv(hoja, 'data/ucar_x_hoja_ign.csv')
 write_csv(poligonos, 'data/ucar_x_poligon.csv')
 write_csv(ucar, 'data/ucar_atributos.csv')
 write_csv(ucar_c, 'data/ucar_composicion.csv')
+write_csv(serie, 'data/componente_taxo.csv')
